@@ -1,7 +1,7 @@
 {
     "name":"ONKAR",
     "start_url": "/",
-    "Display":"Standalone", 
+    "Display":"standalone", 
     "icons": [ 
         {
             "src":"./assets/images/SKILLHUB-48-48.png",

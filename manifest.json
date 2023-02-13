@@ -1,6 +1,6 @@
 {
     "name":"ONKAR",
-    "start_url": "/",
+    "start_url": "/pwa",
     "Display":"standalone", 
     "icons": [ 
         {

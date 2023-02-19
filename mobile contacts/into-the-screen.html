@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <input type="text" id="inp">
+  <button type="button" class="btn btn-primary" onclick="handelSelect()">add</button>
+  <div id="text"></div>
+<script>
+  let arr = []
+    function handelSelect() {
+    const xm =   document.getElementById("inp").value
+     arr.push(xm)
+     document.getElementById("text").innerHTML = arr
+    }
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
